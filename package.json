@@ -1,0 +1,22 @@
+{
+  "name": "apache_ai",
+  "version": "0.0.0",
+  "description": "Summarizes Apache error logs by removing unnecessary uniquely identifying information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mixu/apache_ai.git"
+  },
+  "bin": {
+    "apache_ai": "./index.js"
+  },
+  "keywords": [
+    "apache"
+  ],
+  "author": "Mikito Takada <mikito.takada@gmail.com>",
+  "license": "GPL",
+  "readmeFilename": "readme.md"
+}
